@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(SolutionDir)\HotfixTest\IExample.cs" />
+    <Compile Include="$(SolutionDir)\HotfixTest\ExampleNamespace\*.cs" />
+  </ItemGroup>
+</Project>
